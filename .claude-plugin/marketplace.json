@@ -12,10 +12,10 @@
         "url": "opensourceeurope/ose-knowledge-mcp",
         "path": "plugins/ose-knowledge"
       },
-      "description": "Open Source Europe documentation: an ose-researcher agent backed by the public OSE docs MCP server."
+      "description": "Open Source Europe documentation: an ask-about-ose skill and ose-researcher agent backed by the public OSE docs MCP server."
     },
     {
-      "name": "oc-platform-api",
+      "name": "oc-platform-mcp",
       "source": {
         "source": "git-subdir",
         "url": "opensourceeurope/mcp-for-ocp-graphql",

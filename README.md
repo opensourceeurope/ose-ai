@@ -7,7 +7,7 @@ The [Open Source Europe](https://github.com/opensourceeurope) Claude Code plugin
 | Plugin | What it does | Source |
 |---|---|---|
 | `ose-knowledge` | An `ose-researcher` agent backed by the public OSE docs MCP server. | [ose-knowledge-mcp](https://github.com/opensourceeurope/ose-knowledge-mcp) |
-| `oc-platform-api` | Read-only Open Collective GraphQL: the `mcp-for-ocp-graphql` MCP server plus querying + local-export skills and an analyst agent. | [mcp-for-ocp-graphql](https://github.com/opensourceeurope/mcp-for-ocp-graphql) |
+| `oc-platform-mcp` | Read-only Open Collective GraphQL: the `mcp-for-ocp-graphql` MCP server plus querying + local-export skills and an analyst agent. | [mcp-for-ocp-graphql](https://github.com/opensourceeurope/mcp-for-ocp-graphql) |
 
 ## Use it
 
@@ -16,7 +16,7 @@ In Claude Code:
 ```
 /plugin marketplace add opensourceeurope/ose-ai
 /plugin install ose-knowledge@ose-ai
-/plugin install oc-platform-api@ose-ai
+/plugin install oc-platform-mcp@ose-ai
 ```
 
 Pull in newer plugin versions with `/plugin marketplace update ose-ai`.
