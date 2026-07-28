@@ -7,6 +7,7 @@
   "plugins": [
     {
       "name": "ose-knowledge",
+      "displayName": "Open Source Europe Knowledge Base",
       "source": {
         "source": "git-subdir",
         "url": "opensourceeurope/ose-knowledge-mcp",
@@ -16,6 +17,7 @@
     },
     {
       "name": "oc-platform-mcp",
+      "displayName": "Read-Only MCP for Open Collective Platform",
       "source": {
         "source": "git-subdir",
         "url": "opensourceeurope/mcp-for-ocp-graphql",
