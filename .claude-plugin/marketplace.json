@@ -1,0 +1,27 @@
+{
+  "name": "ose-ai",
+  "owner": {
+    "name": "Open Source Europe",
+    "url": "https://github.com/opensourceeurope"
+  },
+  "plugins": [
+    {
+      "name": "ose-knowledge",
+      "source": {
+        "source": "git-subdir",
+        "url": "opensourceeurope/ose-knowledge-mcp",
+        "path": "plugins/ose-knowledge"
+      },
+      "description": "Open Source Europe documentation: an ose-researcher agent backed by the public OSE docs MCP server."
+    },
+    {
+      "name": "oc-platform-api",
+      "source": {
+        "source": "git-subdir",
+        "url": "opensourceeurope/mcp-for-ocp-graphql",
+        "path": "plugins/oc-platform-api"
+      },
+      "description": "Read-only Open Collective GraphQL: the mcp-for-ocp-graphql MCP server plus querying + local-export skills and an analyst agent, packaged as a Claude Code plugin."
+    }
+  ]
+}
