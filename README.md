@@ -2,6 +2,16 @@
 
 The [Open Source Europe](https://github.com/opensourceeurope) Claude Code plugin marketplace — a single catalog listing the OSE plugins. Each plugin's code lives in its own repository; this repo just points at them.
 
+## Contents
+
+- [Plugins](#plugins)
+- [Install](#install)
+  - [In the Claude Desktop app (no terminal)](#in-the-claude-desktop-app-no-terminal)
+  - [In the Claude Code CLI](#in-the-claude-code-cli)
+- [How it's wired](#how-its-wired)
+- [AI use](#ai-use)
+- [License](#license)
+
 ## Plugins
 
 | Plugin | What it does | Source |
