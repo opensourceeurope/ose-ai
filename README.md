@@ -16,7 +16,8 @@ The [Open Source Europe](https://github.com/opensourceeurope) Claude Code plugin
 1. Open **Settings** and select **Plugins** (under *Customize* in the left sidebar).
 2. In the top right, click **Add ▾**, then **Add marketplace**.
 
-   ![Plugins settings with the Add menu open, showing the Add marketplace option](assets/desktop-1-add-marketplace.png)
+   <img src="assets/desktop-1-add-marketplace.png" alt="Plugins settings with the Add menu open, showing the Add marketplace option" width="50%">
+
 
 3. In the **URL** field, paste the marketplace reference below and click **Sync**:
 
@@ -26,13 +27,15 @@ The [Open Source Europe](https://github.com/opensourceeurope) Claude Code plugin
 
    There is no file to download and no installer — the "installation reference" is simply this GitHub `owner/repo`. (A full `https://github.com/opensourceeurope/ose-ai` URL works too.)
 
-   ![Add marketplace dialog with opensourceeurope/ose-ai in the URL field and the Sync button](assets/desktop-2-marketplace-url.png)
+   <img src="assets/desktop-2-marketplace-url.png" alt="Add marketplace dialog with opensourceeurope/ose-ai in the URL field and the Sync button" width="50%">
+
 
 4. The **Directory** opens on the **ose-ai** tab showing two plugins. Open either card and install it, choosing whether to enable it for **all projects** or a **specific project**:
    - **Open Source Europe Knowledge Base** — the `ose-knowledge` plugin
    - **Read-Only MCP for Open Collective Platform** — the `oc-platform-mcp` plugin
 
-   ![Directory on the ose-ai tab showing the two installable plugins](assets/desktop-3-install-plugins.png)
+   <img src="assets/desktop-3-install-plugins.png" alt="Directory on the ose-ai tab showing the two installable plugins" width="50%">
+
 
 After installing, a full restart of the app (or a new chat) loads the plugin's skills, agents, and MCP servers.
 
