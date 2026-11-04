@@ -8,6 +8,7 @@ The [Open Source Europe](https://github.com/opensourceeurope) Claude Code plugin
 - [Install](#install)
   - [In the Claude Desktop app (no terminal)](#in-the-claude-desktop-app-no-terminal)
   - [In the Claude Code CLI](#in-the-claude-code-cli)
+  - [In OpenAI Codex](#in-openai-codex)
 - [How it's wired](#how-its-wired)
 - [AI use](#ai-use)
 - [License](#license)
@@ -59,9 +60,19 @@ After installing, a full restart of the app (or a new chat) loads the plugin's s
 
 Pull in newer plugin versions with `/plugin marketplace update ose-ai`, or enable auto-update for the marketplace so it refreshes in the background.
 
+### In OpenAI Codex
+
+Codex reads a separate catalog, `.agents/plugins/marketplace.json`. It lists `oc-platform-mcp` only, because `ose-knowledge` has no Codex manifest yet.
+
+```bash
+codex plugin marketplace add opensourceeurope/ose-ai
+```
+
+Then run `/plugins` in Codex, install `oc-platform-mcp`, and start a new session to load it.
+
 ## How it's wired
 
-This repo holds only the catalog (`.claude-plugin/marketplace.json`). Each entry uses a `git-subdir` source that points at the plugin's own repo and subdirectory, so plugin code, issues, and releases stay where they belong. Plugin versions come from each plugin's own `plugin.json` — never duplicated here.
+This repo holds only the catalogs: `.claude-plugin/marketplace.json` for Claude and `.agents/plugins/marketplace.json` for Codex. Each entry uses a `git-subdir` source that points at the plugin's own repo and subdirectory, so plugin code, issues, and releases stay where they belong. Plugin versions come from each plugin's own `plugin.json` — never duplicated here.
 
 ## AI use
 

@@ -1,0 +1,22 @@
+{
+  "name": "ose-ai",
+  "interface": {
+    "displayName": "Open Source Europe"
+  },
+  "plugins": [
+    {
+      "name": "oc-platform-mcp",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opensourceeurope/mcp-for-ocp-graphql.git",
+        "path": "./plugins/oc-platform-api",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
