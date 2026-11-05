@@ -22,6 +22,8 @@ The [Open Source Europe](https://github.com/opensourceeurope) Claude Code plugin
 
 ## Install
 
+Both plugins start their MCP servers with `uvx`. Install [uv](https://docs.astral.sh/uv/) before you install either plugin, in any of the apps below.
+
 ### In the Claude Desktop app (no terminal)
 
 1. Open **Settings** and select **Plugins** (under *Customize* in the left sidebar).
@@ -62,7 +64,7 @@ Pull in newer plugin versions with `/plugin marketplace update ose-ai`, or enabl
 
 ### In OpenAI Codex
 
-Codex reads a separate catalog, `.agents/plugins/marketplace.json`. It lists both plugins. The `ose-knowledge` MCP server starts with `uvx`, so install [uv](https://docs.astral.sh/uv/) before you install that plugin.
+Codex reads a separate catalog, `.agents/plugins/marketplace.json`. It lists both plugins.
 
 ```bash
 codex plugin marketplace add opensourceeurope/ose-ai
