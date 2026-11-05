@@ -5,6 +5,20 @@
   },
   "plugins": [
     {
+      "name": "ose-knowledge",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/opensourceeurope/opensourceeurope.org.git",
+        "path": "./plugins/ose-knowledge",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "oc-platform-mcp",
       "source": {
         "source": "git-subdir",

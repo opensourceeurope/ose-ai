@@ -62,13 +62,13 @@ Pull in newer plugin versions with `/plugin marketplace update ose-ai`, or enabl
 
 ### In OpenAI Codex
 
-Codex reads a separate catalog, `.agents/plugins/marketplace.json`. It lists `oc-platform-mcp` only, because `ose-knowledge` has no Codex manifest yet.
+Codex reads a separate catalog, `.agents/plugins/marketplace.json`. It lists both plugins.
 
 ```bash
 codex plugin marketplace add opensourceeurope/ose-ai
 ```
 
-Then run `/plugins` in Codex, install `oc-platform-mcp`, and start a new session to load it.
+Then run `/plugins` in Codex, install `ose-knowledge` or `oc-platform-mcp`, and start a new session to load it.
 
 ## How it's wired
 
