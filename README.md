@@ -17,7 +17,7 @@ The [Open Source Europe](https://github.com/opensourceeurope) Claude Code plugin
 
 | Plugin | What it does | Source |
 |---|---|---|
-| `ose-knowledge` | An `ose-researcher` agent backed by the public OSE docs MCP server. | [opensourceeurope.org](https://github.com/opensourceeurope/opensourceeurope.org) |
+| `ose-knowledge` | The OSE docs MCP server, an `ask-about-ose` skill, and an `ose-researcher` agent (not loaded by Codex). | [opensourceeurope.org](https://github.com/opensourceeurope/opensourceeurope.org) |
 | `oc-platform-mcp` | Read-only Open Collective GraphQL: the `mcp-for-ocp-graphql` MCP server plus querying + local-export skills and an analyst agent. | [mcp-for-ocp-graphql](https://github.com/opensourceeurope/mcp-for-ocp-graphql) |
 
 ## Install
@@ -62,13 +62,13 @@ Pull in newer plugin versions with `/plugin marketplace update ose-ai`, or enabl
 
 ### In OpenAI Codex
 
-Codex reads a separate catalog, `.agents/plugins/marketplace.json`. It lists both plugins.
+Codex reads a separate catalog, `.agents/plugins/marketplace.json`. It lists both plugins. The `ose-knowledge` MCP server starts with `uvx`, so install [uv](https://docs.astral.sh/uv/) before you install that plugin.
 
 ```bash
 codex plugin marketplace add opensourceeurope/ose-ai
 ```
 
-Then run `/plugins` in Codex, install `ose-knowledge` or `oc-platform-mcp`, and start a new session to load it.
+Then run `/plugins` in Codex, install `ose-knowledge` or `oc-platform-mcp`, and start a new session to load it. To install `ose-knowledge` from the terminal instead, run `codex plugin add ose-knowledge@ose-ai` and start a new session.
 
 ## How it's wired
 
