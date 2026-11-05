@@ -17,7 +17,7 @@ The [Open Source Europe](https://github.com/opensourceeurope) Claude Code plugin
 
 | Plugin | What it does | Source |
 |---|---|---|
-| `ose-knowledge` | An `ose-researcher` agent backed by the public OSE docs MCP server. | [ose-knowledge-mcp](https://github.com/opensourceeurope/ose-knowledge-mcp) |
+| `ose-knowledge` | An `ose-researcher` agent backed by the public OSE docs MCP server. | [opensourceeurope.org](https://github.com/opensourceeurope/opensourceeurope.org) |
 | `oc-platform-mcp` | Read-only Open Collective GraphQL: the `mcp-for-ocp-graphql` MCP server plus querying + local-export skills and an analyst agent. | [mcp-for-ocp-graphql](https://github.com/opensourceeurope/mcp-for-ocp-graphql) |
 
 ## Install

@@ -10,7 +10,7 @@
       "displayName": "Open Source Europe Knowledge Base",
       "source": {
         "source": "git-subdir",
-        "url": "opensourceeurope/ose-knowledge-mcp",
+        "url": "opensourceeurope/opensourceeurope.org",
         "path": "plugins/ose-knowledge"
       },
       "description": "Open Source Europe documentation: an ask-about-ose skill and ose-researcher agent backed by the public OSE docs MCP server."
